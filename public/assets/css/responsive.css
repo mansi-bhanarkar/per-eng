@@ -1,0 +1,257 @@
+/**********************************************************************************\\
+|*                                                                               *|
+|* Copyright (C) 2020 Technotery Business Solutions LLP                          *|
+|* All text, code and logic contained herein is copyright by Technotery Business *|
+|* Solutions LLP                                                                 *|
+|*                                                                               *|
+|* THE COPYING OR REPRODUCTION OF ANY TEXT, PROGRAM CODE OR LOGIC CONTAINED      *|
+|* HEREIN IS EXPRESSLY PROHIBITED. VIOLATORS WILL BE PROSECUTED TO THE FULL      *|
+|* EXTENT OF THE LAW.                                                            *|
+|*                                                                               *|
+|* If this license is not clear to you, DO NOT CONTINUE; instead, contact        *|
+|* Technotery Business Solutions LLP at: support@technotery.com                  *|
+|*                                                                               *|
+\\*********************************************************************************/
+
+
+/**
+ *    User Controller
+ *    @category		CSS
+ *    @author		KAJAL SHUKLA
+ *    @version		1.0
+ *    @Date			13/10/2020
+ */
+
+
+/* 1. New Grid System */
+
+.col-sms-1,
+.col-sms-2,
+.col-sms-3,
+.col-sms-4,
+.col-sms-5,
+.col-sms-6,
+.col-sms-7,
+.col-sms-8,
+.col-sms-9,
+.col-sms-10,
+.col-sms-11,
+.col-sms-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 991.5px){
+    .about-text::before {
+        left: -1.6875rem;
+    }
+    /* .about-text h2,
+    .about-text h5
+    {
+        margin-left: 30px !important;
+    } */
+    .banner-slider img
+    {
+        object-fit: cover;
+        width: 100% !important;
+    }
+    .euro-text .main-title {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .samco-header a
+    {
+        font-size: 20px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-slider .item .info > div {
+        /* display: unset !important; */
+        vertical-align: middle;
+      }
+      .slick-dots {
+        left: 42%;
+    }
+    /* .main-header a.nav-link {
+        color: #060505 !important;
+    } */
+    .close-menu
+    {
+        text-align: end !important;
+    }
+    .navbar-nav
+    {
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .newsletter-input input {
+        min-height: 37px;
+    }
+    .perfeng-catagory-card-btn {
+        width: 100% !important;
+        padding: 0;
+    }
+    .nav-tabs {
+        display: inline-block;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+
+    .nav-tabs .nav-item>.nav-link {
+        margin-bottom: 5px;
+    }
+    .samco-header
+    a.nav-link
+    {
+    color: var(--main-black) !important;
+    }
+    .samco-header a.active {
+        color: var(--main-red) !important;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 700px)
+{
+   
+    .samco-header
+    a.nav-link
+    {
+    color: var(--main-black) !important;
+    font-size: 16px !important;
+    }
+    .samco-header a.dropdown-item
+    {
+        font-size: 16px !important;
+    }
+    .dropdown-item {
+        padding: 0.25rem 0rem !important;
+    }
+    .samco-header a.active {
+        color: var(--main-red) !important;
+        font-weight: 600;
+    }
+    .faq-img img
+    {
+        width: 100%;
+    }
+    .navbar-nav
+    {
+        width: 100%;
+    }
+    .Modern-Slider .item .img-fill .info
+    {
+        text-align: center;
+    }
+
+    .close-menu
+    {
+        text-align: end !important;
+    }
+    .navbar-nav
+    {
+        margin-left: 0px !important;
+    }
+    .slick-dots {
+        left: 36%;
+    }
+    .offcanvas-menu.header .navbar .menu-link ,.offcanvas-menu.header .navbar .menu-item a
+    {
+        font-size: 12px !important;
+    }
+    .offcanvas-menu .modal-body.serch-modal-body {
+        top: 145px !important;
+        left: 24px !important;
+    }
+    .newsletter-input input {
+        min-height: 40.5px;
+    }
+   
+    .slick-initialized .banner-slide
+    {
+        padding-bottom: 50px;
+    }
+    .about-perfeng-img img 
+    {
+      width: 100% !important;
+    }
+    .main-btn {
+        font-size: 16px !important;
+    }
+    .testimonial-img img
+    {
+        display: none;
+    }
+    .navbar-collapse.show {
+        left: -10px !important;
+     }
+     .navbar-collapse {
+        width: calc(100vw - 44vw) !important;
+      }
+ 
+}
+
+/* ipad-pro media query */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .about-perfeng-img img 
+    {
+      width: 100% !important;
+    } 
+    .faq-img img
+    {
+        width: 100%;
+    }
+    .perfeng-catagory-card-btn {
+        width: 100% !important;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 769px) {
+    .navbar-collapse {
+      background-color: rgba(255, 255, 255, 1);
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding-top: 50px;
+      padding-left: 30px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: calc(100vw - 55vw);
+      height: 100vh;
+      box-shadow: 13px 7px 15px 1.5px rgb(114 98 98 / 15%);
+      z-index: 999;
+    }
+  
+    .navbar-collapse.collapsing {
+      height: auto;
+      -webkit-transition: left 0.3s ease;
+      -o-transition: left 0.3s ease;
+      -moz-transition: left 0.3s ease;
+      transition: left 0.3s ease;
+      left: -20.3em;
+      height: 100vh;
+    }
+  
+    .navbar-collapse.show {
+      left: -7px;
+      -webkit-transition: left 0.3s ease-in;
+      -o-transition: left 0.3s ease-in;
+      -moz-transition: left 0.3s ease-in;
+      transition: left 0.3s ease-in;
+   }
+  
+  .navbar-toggler {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 3%;
+  }  
+}
+
+    
